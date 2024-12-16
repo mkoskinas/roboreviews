@@ -90,7 +90,8 @@ http://localhost:5000
 │           ├── Tools_and_Home_Improvement.parquet
 │           ├── Toys_and_Games.parquet
 │           ├── Unknown.parquet
-│           └── Video_Games.parquet
+│           ├── Video_Games.parquet
+            └── ...
 ├── environment.yml
 ├── invalid_path
 ├── notebooks
