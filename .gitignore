@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual Environment
+venv/
+ENV/
+.env
+
+# Data and Models (since they're in Google Drive)
+data/
+models/
+cached_model/
+*.parquet
+*.dataset
+*.bin
+*.pt
+*.pth
+
+# Logs and Cache
+logs/
+*.log
+.cache/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+.DS_Store?
+
+# Test checkpoints
+tests/test_data/checkpoints/best_model.pt
+tests/test_data/checkpoints/checkpoint.pt
+
+# Raw data files
+data/amazon_reviews_backup/raw/Sports_and_Outdoors.parquet
+data/amazon_reviews_backup/raw/Office_Products.parquet
+data/amazon_reviews_backup/raw/Unknown.parquet
+data/amazon_reviews_backup/raw/Pet_Supplies.parquet
+data/amazon_reviews_backup/raw/Patio_Lawn_and_Garden.parquet
+data/amazon_reviews_backup/raw/Toys_and_Games.parquet
+data/amazon_reviews_backup/raw/Video_Games.parquet
+data/amazon_reviews_backup/raw/Software.parquet
+data/amazon_reviews_backup/raw/Tools_and_Home_Improvement.parquet
+
+# Test checkpoints
+tests/test_data/checkpoints/best_model.pt
+tests/test_data/checkpoints/checkpoint.pt
+
+# Raw data files
+data/amazon_reviews_backup/raw/*.parquet
+data/amazon_reviews_backup/processed/*.parquet
+
+# Make sure to exclude ALL data directories
+data/**/*.parquet
+*.pt
+*.pth
+*.bin
+*.h5
+
+# Cache
+__pycache__/
+.ipynb_checkpoints/
