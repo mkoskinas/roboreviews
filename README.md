@@ -20,7 +20,7 @@ RoboReviews is a Flask-based web application that demonstrates how businesses ca
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone <https://github.com/mkoskinas/roboreviews.git>
 cd roboreviews
 ```
 2. Create and activate conda environment:
